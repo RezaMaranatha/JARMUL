@@ -151,7 +151,7 @@ function insertMessageToDOM(options, isFromMe) {
   const template = document.querySelector('template[data-template="message"]');
   const nameEl = template.content.querySelector('.message__name');
   if (options.emoji || options.name) {
-    nameEl.innerText = options.emoji + ' ' + options.name;
+    nameEl.innerText = ' ' + options.name;
   }
   template.content.querySelector('.message__bubble').innerText = options.content;
   const clone = document.importNode(template.content, true);
