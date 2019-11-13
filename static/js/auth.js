@@ -55,7 +55,7 @@ function handleLogin() {
           
           window.location = getRoomURL();
         }
-        runMes();
+        // runMes();
         return enableVideo();
       }
 
