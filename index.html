@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    {% comment %} <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script> {% endcomment %}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/style.css">
@@ -29,24 +29,7 @@
       </div>
 
       <div id="remotes" class="row">
-        <div class="content">
-          <div class="messages">
-
-          </div>
-          <form class="footer" onsubmit="return false;">
-            <input type="text" placeholder="Your message..">
-            <button type="submit">Send</button>
-          </form>
-        </div>
-
-        <template data-template="message">
-          <div class="message">
-            <div class="message__name"></div>
-            <div class="message__bubble"></div>
-          </div>
-        </template>
-
-        <script src="/static/js/scrpt.js"></script>
+        
 
         <div class="col-md-6">
           <div class="videoContainer">
