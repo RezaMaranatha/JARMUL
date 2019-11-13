@@ -186,4 +186,4 @@ form.addEventListener('submit', () => {
   insertMessageToDOM(data, true);
 });
 
-// insertMessageToDOM({content: 'Chat URL is ' + location.href});
+insertMessageToDOM({content: 'Chat URL is ' + location.href});
