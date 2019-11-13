@@ -153,14 +153,14 @@ function insertMessageToDOM(options, isFromMe) {
   if (options.emoji || options.name) {
     nameEl.innerText = options.emoji + ' ' + options.name;
   }
-  template.content.querySelector('.message__bubble').innerText = options.content;
-  const clone = document.importNode(template.content, true);
-  const messageEl = clone.querySelector('.message');
-  if (isFromMe) {
-    messageEl.classList.add('message--mine');
-  } else {
-    messageEl.classList.add('message--theirs');
-  }
+  // template.content.querySelector('.message__bubble').innerText = options.content;
+  // const clone = document.importNode(template.content, true);
+  // const messageEl = clone.querySelector('.message');
+  // if (isFromMe) {
+  //   messageEl.classList.add('message--mine');
+  // } else {
+  //   messageEl.classList.add('message--theirs');
+  // }
 
   const messagesEl = document.querySelector('.messages');
   messagesEl.appendChild(clone);
