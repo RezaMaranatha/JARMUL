@@ -29,15 +29,7 @@
       </div>
 
       <div id="remotes" class="row">
-        <div class="col-md-6">
-          <div class="videoContainer">
-            <video id="selfVideo" oncontextmenu="return false;"></video>
-            <meter id="localVolume" class="volume" min="-45" max="-20" high="-25" low="-40"></meter>
-          </div>
-        </div>
-      </div>
-
-      <div class="content">
+        <div class="content">
           <div class="messages">
 
           </div>
@@ -55,6 +47,14 @@
         </template>
 
         <script src="/static/js/scrpt.js"></script>
+
+        <div class="col-md-6">
+          <div class="videoContainer">
+            <video id="selfVideo" oncontextmenu="return false;"></video>
+            <meter id="localVolume" class="volume" min="-45" max="-20" high="-25" low="-40"></meter>
+          </div>
+        </div>
+      </div>
     </div>
     <script>
       handleLogin();
