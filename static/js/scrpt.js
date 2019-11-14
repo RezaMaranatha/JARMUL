@@ -184,4 +184,4 @@
 
     insertMessageToDOM(data, true);
   });
-  insertMessageToDOM({content: 'Chat URL is ' + location.hash.href});
+  insertMessageToDOM({content: 'Chat URL is ' + location.href});
