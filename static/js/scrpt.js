@@ -1,4 +1,5 @@
 insertMessageToDOM({content: 'Chat URL is ' + location.href});
+//tes halo
 
 const possibleEmojis = [
   '🐀','🐁','🐭','🐹','🐂','🐃','🐄','🐮','🐅','🐆','🐯','🐇','🐐','🐑','🐏','🐴',
