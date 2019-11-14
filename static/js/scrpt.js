@@ -145,7 +145,7 @@ function setupDataChannel() {
 function checkDataChannelState() {
   console.log('WebRTC channel state is:', dataChannel.readyState);
   if (dataChannel.readyState === 'open') {
-    insertMessageToDOM({content: 'WebRTC data channel is now open'});
+    insertMessageToDOM({content: 'Someone Has Enter The Chat'});
   }
 }
 
