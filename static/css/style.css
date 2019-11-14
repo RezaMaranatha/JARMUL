@@ -81,6 +81,8 @@ header h2 {
   margin-bottom: 1em;
 }
 .center {
+	margin: auto;
 	text-align: center;
 	border: 3px solid black;
+	padding: 10px;
 }
