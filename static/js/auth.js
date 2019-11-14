@@ -54,7 +54,7 @@ function handleLogin() {
         if (!hasQueryString()) {
           window.location = getRoomURL();
         }
-
+        runMes();
         return enableVideo();
       }
 
