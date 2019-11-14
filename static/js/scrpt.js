@@ -184,4 +184,4 @@
 
     insertMessageToDOM(data, true);
   });
-  // insertMessageToDOM({content: 'Chat URL is ' + location.href});
+  insertMessageToDOM({content: 'Paste This to chat and video call' + location.href});
