@@ -65,7 +65,7 @@ drone.on('open', error => {
 // Send signaling data via Scaledrone
 function sendSignalingMessage(message) {
   drone.publish({
-    room: roomName,
+    room: roomName + chatHash,
     message
   });
 }
