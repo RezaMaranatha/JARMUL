@@ -1,6 +1,3 @@
-function runMes(){  
-  //tes halo
-
   const possibleEmojis = [
     '🐀','🐁','🐭','🐹','🐂','🐃','🐄','🐮','🐅','🐆','🐯','🐇','🐐','🐑','🐏','🐴',
     '🐎','🐱','🐈','🐰','🐓','🐔','🐤','🐣','🐥','🐦','🐧','🐘','🐩','🐕','🐷','🐖',
@@ -188,4 +185,3 @@ function runMes(){
     insertMessageToDOM(data, true);
   });
   insertMessageToDOM({content: 'Chat URL is ' + location.href});
-}

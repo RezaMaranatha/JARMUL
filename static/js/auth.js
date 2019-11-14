@@ -55,8 +55,7 @@ function handleLogin() {
           window.location = getRoomURL();
           // runMes();
         }
-        enableVideo();
-        return runMes();
+        return enableVideo();
       }
 
       // If we get here, the user is not logged in.
