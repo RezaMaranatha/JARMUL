@@ -53,10 +53,10 @@ function handleLogin() {
         // If the user is logged in on the home page, redirect to their room page.
         if (!hasQueryString()) {
           window.location = getRoomURL();
-          runMes();
+          // runMes();
         }
-
-        return enableVideo();
+        enableVideo();
+        return runMes();
       }
 
       // If we get here, the user is not logged in.
