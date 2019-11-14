@@ -1,3 +1,4 @@
+insertMessageToDOM({content: 'Chat URL is ' + location.href});
 
 const possibleEmojis = [
   '🐀','🐁','🐭','🐹','🐂','🐃','🐄','🐮','🐅','🐆','🐯','🐇','🐐','🐑','🐏','🐴',
@@ -186,4 +187,3 @@ form.addEventListener('submit', () => {
   insertMessageToDOM(data, true);
 });
 
-insertMessageToDOM({content: 'Chat URL is ' + location.href});
